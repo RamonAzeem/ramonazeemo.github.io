@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" src="https://github.com/twbs/bootstrap/blob/v5.3.3/site/content/docs/5.3/extend/icons.md">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>my portfolio</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: black;
+		font-family: Roboto, Arial;
+
+	}
+*{
+	padding: 0;
+	margin: 0;
+
+
+
+}
+.header{
+
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+
+top: 0;
+left: 0;
+right: 0;
+
+
+z-index: 100;
+
+
+padding-left: 30px;
+margin: auto;
+
+}
+.right-section{
+	
+	
+	color: white;
+	padding-top: 19px;
+
+
+}
+.header .middle-section ul{
+	list-style: none;
+
+	
+}
+.header .middle-section ul li{
+	
+	display: inline;
+	margin-right: 45px;
+	color: white;
+}
+.header .middle-section ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+.header .middle-section ul li a:hover{
+	color: purple;
+}
+.header .middle-section{
+	padding-left: 50px;
+	vertical-align: top;
+	
+	
+
+}
+.left-section button{
+	background: linear-gradient(purple, orange);
+	color: white;
+	padding: 14px 14px 14px 14px;
+	margin-right: 90px;
+	border-radius: 30px;
+	transition: ease-in-out 2s;
+	cursor: pointer;
+	border: none;
+}
+.left-section{
+	
+	padding-top: 10px;
+
+}
+.left-section button a{
+	text-decoration: none;
+	color: white;
+}
+.left-section button:hover{
+	transform: scale(1.12);
+	transition: 1s;
+}
+
+.main{
+	text-align: center;
+	color: white;
+	height: 100vh;
+	
+	margin-bottom: 20px;
+
+}
+.mains{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.main img{
+	margin-top: 50px;
+	width: 180px;
+	height: 180px;
+	border-radius: 280px;
+	text-align: center;
+}
+.name{
+	margin-top: 20px;
+	
+	width: 550px;
+	text-align: center;
+	
+	font-size: 40px;
+}
+.name span{
+	color: rgb(230, 24, 205);
+}
+ .stat{
+	width: 500px;
+	
+	margin-top: 10px;
+	line-height: 27px;
+	opacity: 0.6;
+}
+.button-1{
+	background: linear-gradient(purple, orange);
+	color: white;
+	padding: 14px 14px 14px 14px;
+	
+	border-radius: 30px;
+	transition: 1s;
+	cursor: pointer;
+transition: 1s;
+
+margin-top: 25px;
+}
+.button-1:hover{
+	
+	border: 2px solid white;
+	transition: 1s;
+}
+.button-2{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 14px 20px 14px 20px;
+	
+	border-radius: 30px;
+	transition: 1s;
+	cursor: pointer;
+	margin-top: 25px;
+
+
+}
+.button-2:hover{
+border: 2px solid rgb(230, 24, 205);
+transition: 1s;	
+}
+.about-me{
+	
+	color: white;
+	height: 100vh;
+	
+}
+.about-me .titl{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.about-me .images{
+	height: 380px;
+	width: 280px;
+	border-radius: 15px;
+
+
+}
+.about-me .title{
+	width: 520px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	display: inline-block;
+	line-height: 23px;
+	opacity: 0.6;
+}
+.about-me .stats{
+width: 600px;
+	font-size: 16px;
+	line-height: 19px;
+	opacity: 0.6;
+}
+.abt-me{
+	display: flex;
+	margin-top: 40px;
+	margin-left: 100px;
+
+}
+.second{
+	margin-left: 30px;
+	margin-top: 10px;
+	display: grid;
+
+
+}
+.span-1{
+	border: 2px solid black;
+	width: 100px;
+	padding: 0.04px 200px 0.04px 200px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+
+}
+.span-2{
+	border: 2px solid black;
+	width: 100px;
+	padding: 0.04px 280px 0.04px 280px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+}
+.span-3{
+border: 2px solid black;
+	width: 100px;
+	padding: 0.04px 250px 0.04px 250px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+}
+.foot{
+	display: flex;
+	margin-left: 50px;
+	margin-top: 50px;
+	
+	
+}
+.foo{
+	border-right: 2px solid white;
+	padding-right: 100px;
+	margin-left: 30px;
+	margin-right: 130px;
+}
+.foo p{
+	margin-left: 30px;
+	
+}
+.pass{
+	margin-bottom: 20px;
+	margin-top: 17px;
+}
+.pre{
+	color: purple;
+	margin-bottom: 10px;
+}
+.dert{
+	transition: ease-in-out 0.9s;
+	cursor: pointer;
+}
+.dert:hover{
+transform: scale(1.12);
+transition: 1s;
+}
+.portfolio{
+	margin-top: 100px;
+	height: 100vh;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.imgs{
+	height: 250px;
+	width: 430px;
+	border-radius: 20px;
+	transition: 1s;
+	cursor: pointer;
+}
+.imgs:hover{
+	transform: rotate(-10deg);
+	border: 5px solid red;
+}
+.flex{
+
+	width: 70%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 40px; 
+	grid-column-gap: 40px;
+	margin-left: 220px;
+	margin-top: 30px;
+}
+.titl{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+}
+.contact{
+	color: white;
+	height: 100vh;
+	margin-top: 100px;
+	
+}
+.paragr{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	
+}
+.con{
+	margin-top: 60px;
+	
+	
+}
+.con h3{
+	font-size: 30px;
+	color: purple;
+}
+.con p{
+	margin-top: 20px;
+	width: 480px;
+	line-height: 25px;
+}
+label{
+	display: block;
+	margin-bottom: 10px;
+	color: purple;
+}
+.input{
+	margin-bottom: 10px;
+	background: #32323C;
+	height: 30px;
+	width: 500px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding-left: 20px;
+	border-radius: 5px;
+
+}
+textarea{
+	height: 200px;
+	background: #32323C;
+	width: 500px;
+	border: none;
+	display: block;
+	margin-bottom: 10px;
+	color: white;
+	padding-left: 15px;
+	padding-top: 3px;
+	font-size: 20px;
+	font-family: outfit;
+	border-radius: 5px;
+
+}
+.cont{
+
+	display: flex;
+	justify-content: center;
+}
+.co{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.input::placeholder{
+	font-size: 17px;
+}
+.input:focus::placeholder{
+	color: white;
+}
+.input:focus{
+	border: 1px solid orange;
+	
+	color: white;
+}
+#button{
+	border: none;
+	color: white;
+	border-radius: 50px;
+	background: linear-gradient(264deg, yellow -5.09%, purple 106.28%);
+	font-size: 22px;
+	margin-bottom: 50px;
+	cursor: pointer;
+
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	transition: 1s;
+	width: 150px;
+}
+#button:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.img-contact img{
+height: 40px;
+width: 30px;
+background-color: none;
+margin-right: 10px;
+}
+.img-contact{
+	
+	margin-top: 20px;
+	align-items: center;
+
+}
+.footer{
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+	margin-right: 70px;
+	margin-bottom: 20px;
+}
+.footer-left{
+	display: flex;
+	gap: 30px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	background-color: #32323b;
+	padding-right: 80px;
+	margin-right: -30px;
+	margin-left: 320px;
+
+}
+.footer-left:hover{
+	border: 2px solid white;
+}
+.footer-left input{
+	outline: none;
+	border: none;
+	background: transparent;
+	color: #a0a0a0;
+	font-family: outfit;
+	font-size: 18px;
+}
+.sub{
+	margin-left: 50px;
+	font-size: 20px;
+	border-radius: 50px;
+	background: linear-gradient(264deg, yellow -5.04%, purple 106.28%);
+	padding: 12px 30px;
+	cursor: pointer;
+}
+.submit{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.footer-bottom{
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.right{
+	display: flex;
+	gap: 50px;
+	margin-bottom: 50px;
+	margin-right: 49px;
+}
+.harm{
+	background: white;
+}
+.closing{
+	display: none;
+}
+@media(max-width: 927px)
+</style>
+<body>
+<div class="header">
+
+	<div class="right-section">
+		<h3>AZeeM.</h3>
+
+	</div>
+	<div class="middle-section">
+		<img class="harm" src="C:\Users\USER\Downloads\azeem.svg" width="20px" height="20px">
+		
+		<ul>
+			<img src="C:\Users\ALIM\Documents\New folder\Untitled design_20240424_090915_0000.jpg" width="20px" height="20px" class="closing">
+			
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about-me">About Me</a></li>
+			
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	<div class="left-section">
+		<button><a href="#contact">connect with me</a></button>
+	</div>
+</div>
+<section id="home" class="main">
+	<div class="mains">
+		<div>
+	<img src="c:\Users\ALIM\Documents\Masters\Untitled design_20240424_090915_0000.jpg">
+</div>
+<div>
+	<p class="name"><span>I am Ramon Azeem.</span> Frontend developer based in Nigeria.</p>
+	<p class="stat">I am a frontend developer from Nigeria and also one of the codingal alumni. </p></div>
+	<div>
+	<button class="button-1"> Connect with me</button>
+	<button class="button-2">My resume</button>
+</div>
+</section>
+<section id="about-me" class="about-me">
+	<p class="titl">About me</p>
+	<div class="abt-me">
+		<div>
+			<img class="images" src="C:\Users\USER\Pictures\download (1).jpg">
+		</div>
+		<div class="second">
+			<div>
+			<p class="title">I am a frontend developer with over a year in learning in the field. Throughout my career, i would like to collaborate with prestigious organisation, and also contributing to their success and growth.</p>
+			<p class="stats">My passion for frontend developer is not only
+			reflected in my study but also in the enthusiasm
+		and dedication i bring to each project.</p></div>
+		<div>
+			<div class="dert">
+		<p class="pass">HTML & CSS</p><span class="span-1"></span></div>
+		<div class="dert">
+		<p class="pass">JavaScript</p><span class="span-2"></span></div>
+		<div class="dert">
+		<p class="pass">React JS</p><span class="span-3"></span></div>
+	</div>
+		</div>
+	</div>
+	<div class="foot">
+		<div class="foo">
+		<p class="pre">1+</p>
+		<p>years of learning</p>
+</div>
+<div class="foo">
+	<p class="pre">30+</p>
+	<p>Project Completed</p>
+</div>
+<div class="foo-1">
+	<p class="pre">5+</p>
+	<p>Happy Clients</p>
+</div>
+	</div>
+	</section>
+<section id="portfolio" class="portfolio">
+	
+		
+		<h3 class="titl">Portfolio</h3>
+	
+	<div class="flex">
+		<a href="file:///C:/Users/USER/Videos/jur.html?register=Submit"><img class="imgs" src="C:\Users\USER\Pictures\download.jpg"></a>
+		<a href="file:///C:/Users/USER/Desktop/CODEX/form.html"><img class="imgs" src="C:\Users\USER\Pictures\images (1).jpg"></a>
+		<img class="imgs" src="C:\Users\USER\Downloads\jr.png">
+		<a href="file:///C:/Users/USER/Videos/yut.html"><img class="imgs" src="C:\Users\USER\Downloads\gr.jpg"></a>
+	</div>
+	
+	
+
+</section>
+	<section id="contact" class="contact">
+		
+		<h3 class="paragr">Get in touch</h3>
+		<div>
+			<div class="cont">
+				<div class="con">
+				<h3>Let's talk</h3>
+				<p>I'm currently available to take on new projects, so feel free to send a message about anything that you want to work on. You can contact anytime
+
+				</p>
+				<div class="img-contact"><img src="C:\Users\USER\Pictures\download.png"><span>ramonazeem03@gmail.com</span></div>
+				<div class="img-contact"><img src="C:\Users\USER\Pictures\download (1).png"><span>+2348055163526</span></div>
+				<div class="img-contact"><img src="C:\Users\USER\Pictures\download (2).png"><span>Ibadan, Nigeria</span></div>
+			
+			</div>
+			<div class="co">
+				<form method="Get">
+<label>Your Name</label>
+<input class="input" type="text" name="" placeholder="Write your name" required>
+<label>Your Email</label>
+<input class="input" type="email" name="" placeholder="write your email" required>
+<label>Write your message here</label>
+<textarea type="text" placeholder="write your message....."></textarea>
+<input onclick="
+
+alert(email);
+
+" type="submit" name="register" id="button">
+</form>
+		</div></div>
+
+	</section>
+
+<div class="footer">
+	<div style="margin-left: 90px; width: 350px; margin-right: 70px;">
+	<h3>AZeeM.</h3>
+	<P>I am a frontend from, Nigeria with years of learning at codingal
+	</P>
+</div>
+<div class="footer-left">
+	<img class="i" src="C:\Users\USER\Pictures\download (4).png" width="30px" height="30px">
+	<form method="Get">
+	<input type="email" name="" placeholder="Enter your email" required>
+</div>
+<div class="sub"><input class="submit" type="submit"></div>
+</form>
+	
+</div>
+<hr style="width: 88%; text-align: center; margin-left: 8%;">
+<div class="footer-bottom">
+	<p>@ 2023 Ramon Azeem. All right reserved</p>
+	<div class="right">
+		<P>
+			Term of Services
+		</P>
+		<P>
+			Privacy Policy
+		</P>
+		<p>Connect with me</p>	</div>
+	</div>
+	<script>
+		var email = "email sent successfully";
+
+	
+</script>
+</body>
+
+</html>
